@@ -16,8 +16,8 @@ import samples.repository.UserRepository
 open class UserService @Autowired constructor(private val userRepository: UserRepository) {
 
     /**
-     * 全書籍リストの取得
-     * @return 書籍リスト
+     * 全ユーザリストの取得
+     * @return ユーザリスト
      */
     fun findAllUser(): MutableList<User> = userRepository.findAll()
 }

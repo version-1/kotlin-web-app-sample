@@ -11,12 +11,11 @@ import javax.persistence.Id
 import javax.persistence.Table
 
 /**
- * bookテーブルのEntity.
+ * userテーブルのEntity.
  * @param id 主キー
- * @param title 書籍名
- * @param subTitle 書籍の副題 ない場合はnull
- * @param leadingSentence リード文
- * @param url リンク先URLパス
+ * @param name 名前
+ * @param age 年齢
+ * @param sex 性別 ( 0・・・ 女  1・・・男)
  */
 @Entity
 @Table(name = "users")
