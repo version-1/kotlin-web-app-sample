@@ -1,6 +1,19 @@
 # kotlin-web-app-sample
 http://ver-1-0.net/2017/02/12/kotlin-spring-boot/
 
+# Database Confiuguration
+
+src/main/resources/application.yml
+
+change config according to your environment
+```
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost/test
+    username: root
+    password: 
+    driverClassName: com.mysql.jdbc.Driver
+```
 
 
 # How to Start
